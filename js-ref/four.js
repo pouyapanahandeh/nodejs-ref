@@ -1,0 +1,1 @@
+//To create a variable in JavaScript, we need to use the let keyword.
