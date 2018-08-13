@@ -5,3 +5,12 @@ while (i < 3) { // shows 0, then 1, then 2
 	alert( i );
 	i++;
 }
+
+// do while loop
+
+let j = 0;
+do {
+	alert( j );
+	j++;
+} while (j < 3);
+
