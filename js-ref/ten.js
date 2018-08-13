@@ -14,3 +14,28 @@ if(sal == 2015){
 }
 
 // else if in js
+
+let emsal = prompt('what is the year we are in', '');
+
+if (emsal < 2017){
+	alert('change your mind!!!');
+} else if (emsal < 2015) {
+	alert('come on!!!');
+} else{
+	alert(' :( ');
+}
+
+// Ternary operator ‘?’
+
+let accessAllowed;
+let age = prompt('How old are you?', '');
+
+if (age > 18) {
+	alert('you can enter the website.');
+	accessAllowed = true;
+} else {
+	alert('you can not enter the website.');
+	accessAllowed = false;
+}
+
+alert(accessAllowed);
