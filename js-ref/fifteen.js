@@ -27,3 +27,24 @@ function messageHandling() {
 }
 
 messageHandling();
+
+// passing parameter in function
+
+function messageTwo(varOne, varTwo){
+	alert(from + ' : ' + text);
+}
+
+messageTwo('pooya', 'poori');
+
+//function always make copy of data
+
+function messageThree(varThree, varFour) {
+	
+	varThree = " / " + varThree + " / ";
+
+}
+
+let varThree = 'pooya';
+
+alert(varThree);
+messageThree(varThree, 'Hello');
