@@ -35,3 +35,8 @@ alert( bag.apple );
 
 // existence check
 
+// true means "no such property"
+
+let userTwo = {};
+
+alert( userTwo.noSuchProperty === undefined );
