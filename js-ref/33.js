@@ -68,10 +68,5 @@ var setIdforName5 = function setIdName(id, name) {
 
 document.write("<br/>" + setIdforName5(1, "pooya"));
 
-//ES6 
-
-let setIdforName6 = (id, name) => {(id: id, name: name))}
-
-	document.write("<br/>" + setIdforName6(5, "panahandeh"))
-
+//ES6 in next part 
 	
