@@ -26,4 +26,18 @@ secondArray[0] = 13
 
 document.write("<br>" + secondArray)
 
-//
+// accessing element in multi dimisional array
+
+var multiArray = [[1,2,3],[4,5,6],[7,8,9],[[10,11,12], 13, 14]]
+
+// to access first element in array which is in array we have to use two indexing
+// first [0] here get the first array which is inside the another array
+var myData = multiArray [0][0] // here we access 1
+
+document.write("<br>" + myData)
+
+myData = multiArray[2][1]
+
+document.write("<br>" + myData)
+
+// 
