@@ -14,4 +14,5 @@ document.write(aboutMe + "<br>")
 
 var skipper = ' pooya is a normal "programmer" and he can make it'
 
-document.write(skipper)
+document.write(skipper + "<br>")
+
