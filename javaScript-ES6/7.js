@@ -15,3 +15,9 @@ var account = " welcome to your account "
 account += userName
 
 document.write("<br>" + account)
+
+// string lenght
+
+var stringLength = account.length
+
+document.write("<br>" + stringLength)
