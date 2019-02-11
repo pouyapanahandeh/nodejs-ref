@@ -55,3 +55,18 @@ var arrTwo = [2,4,6,8]
 arrTwo.pop()
 
 document.write( "<br>" + arrTwo)
+
+// shift function is same as pop but delete from first
+
+var shiftingArray = ["pooya","noway","backup","cardiB"]
+
+shiftingArray.shift();
+
+document.write("<br>" + shiftingArray)
+
+var unshiftArray = ["mamad","young","bro"]
+
+unshiftArray.unshift("mySoul")
+
+document.write( "<br>" + unshiftArray)
+
