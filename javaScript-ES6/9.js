@@ -48,5 +48,10 @@ newArr.push([6,7,8])
 
 document.write("<br>" + newArr)
 
-newArr[0].push([0])
+// pop function to delete the last element from array
 
+var arrTwo = [2,4,6,8]
+
+arrTwo.pop()
+
+document.write( "<br>" + arrTwo)
