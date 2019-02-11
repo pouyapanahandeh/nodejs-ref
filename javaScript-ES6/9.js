@@ -40,4 +40,13 @@ myData = multiArray[2][1]
 
 document.write("<br>" + myData)
 
-// 
+// add element in array with push
+
+var newArr = [1,2,3,4,5]
+
+newArr.push([6,7,8])
+
+document.write("<br>" + newArr)
+
+newArr[0].push([0])
+
