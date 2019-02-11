@@ -6,4 +6,7 @@ document.write(arrayOne)
 
 // nested array
 
-var nestedArray = [["pooya", 26], []]
+var nestedArray = [["pooya", 26], ["Naz", 27]]
+
+document.write("<br>" + nestedArray)
+
