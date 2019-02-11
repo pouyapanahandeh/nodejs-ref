@@ -21,3 +21,16 @@ document.write("<br>" + account)
 var stringLength = account.length
 
 document.write("<br>" + stringLength)
+
+// print special element of string
+
+var firstName = "pooya"
+
+var printFirst = firstName[0]
+
+document.write("<br>" + printFirst)
+
+var printLast = firstName[firstName.length -1]
+
+document.write("<br>" + printLast)
+
