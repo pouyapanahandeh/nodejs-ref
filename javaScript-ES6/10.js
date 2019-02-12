@@ -4,10 +4,14 @@
 // simple function 
 
 function firstFunction(){
-	document.write("wasup bro")
+	document.write("wasup bro" + "<br>")
 }
 
-firstFunction();
+for(var i = 0 ; i <= 3 ; i++){
+
+	firstFunction();
+
+}
 
 document.write("<br>")
 
