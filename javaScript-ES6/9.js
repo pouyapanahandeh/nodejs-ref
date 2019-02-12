@@ -66,7 +66,8 @@ document.write("<br>" + shiftingArray)
 
 var unshiftArray = ["mamad","young","bro"]
 
+//unshift add element in begining of array
+
 unshiftArray.unshift("mySoul")
 
 document.write( "<br>" + unshiftArray)
-
