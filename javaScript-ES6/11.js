@@ -10,7 +10,22 @@ function myOutfit(){
 }
 
 // here in first print we call the function and we get sweater
-document.write(myOutfit())
+document.write(myOutfit() + "<br>")
 
 // here we access variable, and we will see the result of the global var
-document.write(outWear)
+document.write(outWear + "<br>")
+
+
+// return statement in JS
+
+document.write("<br>" + "-----------------" + "<br>")
+
+function minusSeven(num){
+	return num - 7
+}
+
+document.write(minusSeven(14))
+
+document.write("<br>" + "-----------------" + "<br>")
+
+
