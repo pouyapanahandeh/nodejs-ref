@@ -17,6 +17,8 @@ document.write("<br>")
 
 // passing element in array
 
-function secondFunction(){
-	
+function secondFunction(a,b){
+	document.write(a - b)
 }
+
+secondFunction(5, 2);
