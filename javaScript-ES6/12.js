@@ -26,5 +26,40 @@ function testEqual(val){
 	return "no, its not equal"
 }
 
-document.write(testEqual(10))
+document.write("<br>" + testEqual(10))
 
+/* 
+
+strict equal sign
+
+3 === 3 => true
+3 === '3' => false
+
+normal equal sign 
+
+3 == 3 => true
+3 == '3' => true ( because the operator change the type to number)
+
+*/
+
+function testVal(a, b){
+	if( a >= 10 && a > b){
+		return "a is greater than b and 10"
+	}
+	
+	return "we face to small number"
+}
+
+document.write("<br>" + testVal(15, 5))
+
+// logical or operation
+
+function checkVal(a, b) {
+	if( a > b || a > 0){
+		return "a is greater than b"
+	}
+	
+	return "b is greater than a"
+}
+
+document.write("<br>" + checkVal(5, 3))
