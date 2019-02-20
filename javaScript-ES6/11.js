@@ -48,5 +48,11 @@ document.write("After the function operation" + JSON.stringify(testArr) + "<br>"
 
 document.write("<br>" + "-----------------" + "<br>")
 
+// boolean function in js
+function booleanfunc(){
+	
+	
+	return false;
 
+}
 
