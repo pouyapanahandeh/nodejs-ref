@@ -10,3 +10,10 @@ function isIttrue(a, b){
 
 document.write(isIttrue(4, 3))
 
+// short version of boolean function 
+
+function checkTrueOrFalse(c, d) {
+	return c > d
+}
+
+document.write("<br>" + checkTrueOrFalse(2, 3))
