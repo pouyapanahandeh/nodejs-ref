@@ -12,4 +12,12 @@ document.write(acsOne + "<br>")
 
 // or
 
-document.write(objTest.lastName)
+document.write(objTest.lastName + "<br>")
+
+var objTestTwo = {
+	"the list": "list of people",
+	"a guy": "get the list"
+};
+
+var acsTwo = objTestTwo["the list"]
+document.write(acsTwo)
