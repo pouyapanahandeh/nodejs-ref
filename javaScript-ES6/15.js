@@ -82,3 +82,9 @@ var pair = {key7: "male"}
 objFive = {...objFive, ...pair}
 
 document.write(JSON.stringify(objFive) + "<br>")
+
+// delete Element from object
+
+delete objFive.key1
+
+document.write(JSON.stringify(objFive) + "<br>")
