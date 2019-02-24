@@ -88,3 +88,24 @@ document.write(JSON.stringify(objFive) + "<br>")
 delete objFive.key1
 
 document.write(JSON.stringify(objFive) + "<br>")
+
+// use object for lookup
+
+function phoneticLookup(val){
+	var result = ""
+	
+	var lookup = {
+	
+		"name" : "pooya",
+		"lastName" : "panahandeh",
+		"age" : 26,
+		"id" : "123345567"	
+		
+	};
+	
+	result = lookup[val]
+	
+	return result;
+}
+
+document.write(phoneticLookup("name") + "<br>")
