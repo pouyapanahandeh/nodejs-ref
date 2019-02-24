@@ -36,3 +36,19 @@ objectThree.firstName = "Hassan"
 
 document.write(objectThree.firstName + "<br>")
 
+// print the key of object 
+
+var objectFour = {
+	
+	objectName : "obije",
+	objectId : 2662,
+	objectString : "Gstring"	
+};
+
+// by using the keys keyword you can print out the keys of object
+
+const keys = Object.keys(objectFour)
+
+document.write(keys + "<br>")
+
+//
