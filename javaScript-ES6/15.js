@@ -20,4 +20,19 @@ var objTestTwo = {
 };
 
 var acsTwo = objTestTwo["the list"]
-document.write(acsTwo)
+document.write(acsTwo + "<br>")
+
+// change the value of object 
+
+var objectThree = {
+	"firstName" : "pooya",
+	"lastName" : "amirzadeh",
+	"age" : 26	
+};
+
+document.write(objectThree.firstName + "<br>")
+
+objectThree.firstName = "Hassan"
+
+document.write(objectThree.firstName + "<br>")
+
