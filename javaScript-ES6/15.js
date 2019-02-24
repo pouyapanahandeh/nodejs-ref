@@ -51,4 +51,34 @@ const keys = Object.keys(objectFour)
 
 document.write(keys + "<br>")
 
-//
+// add new properties to the object
+// using dot notation method
+
+var objFive = {
+	key1: "name",
+	key2: "primaryKey",
+	key3: "id"
+};
+
+objFive.key4 = "image"
+
+document.write(JSON.stringify(objFive) + "<br>")
+
+// using the bracket notation
+
+objFive["key5"] = "date"
+
+document.write(JSON.stringify(objFive) + "<br>")
+
+// assign method by using Object keyword 2017
+
+Object.assign(objFive, {key6: "true"})
+
+document.write(JSON.stringify(objFive) + "<br>")
+
+// adding object by make another one and merge it
+
+var pair = {key7: "male"}
+objFive = {...objFive, ...pair}
+
+document.write(JSON.stringify(objFive) + "<br>")
