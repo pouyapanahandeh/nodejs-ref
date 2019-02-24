@@ -109,3 +109,20 @@ function phoneticLookup(val){
 }
 
 document.write(phoneticLookup("name") + "<br>")
+
+// access to element in nested object
+
+var storage = {
+	name : {
+		"firstName" : "pooya",
+		"lastName" : "panahandeh"
+	},
+	job : {
+		"position" : "developer",
+		"level" : "junior"
+	}
+};
+
+var accessor = storage.job["level"]
+
+document.write(accessor + "<br>")
