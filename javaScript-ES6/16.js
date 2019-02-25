@@ -34,3 +34,15 @@ while (counter < 5) {
 }
 
 document.write(myArray + "<br>")
+
+// iterarte to an array with for loop
+
+var arrOne = [1,2,3,4,5,6]
+var total = 0
+
+for(counter = 0 ; counter < arrOne.length ; counter++){
+	total += arrOne[counter]
+}
+
+document.write(total + "<br>")
+
