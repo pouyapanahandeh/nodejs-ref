@@ -45,4 +45,3 @@ for(counter = 0 ; counter < arrOne.length ; counter++){
 }
 
 document.write(total + "<br>")
-
