@@ -1,4 +1,4 @@
-// map in javaScript
+// forEach in javaScript
 
 const companies = [
 	{name: "blueweb360", cat: "internet", start: 2014, end: 2015},
