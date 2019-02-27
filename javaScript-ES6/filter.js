@@ -29,4 +29,24 @@ document.write(allowed + "<br>")
 
 const ableToDrink = ages.filter(age => age >= 21)
 
-document.write(ableToDrink)
+document.write(ableToDrink + "<br>")
+
+const companies = [
+	{name: "blueweb360", cat: "internet", start: 2013, end: 2014},
+	{name: "Himo", cat: "internet", start: 2015, end: 2016},
+	{name: "blue", cat: "IOT", start: 2014, end: 2017},
+	{name: "waac", cat: "Tech", start: 2016, end: 2019}
+	
+];
+
+// get the name of company which has a cat as internet
+
+const retail = companies.filter(iterator => iterator.cat == "internet")
+
+document.write(JSON.stringify(retail) + "<br>")
+
+// getting the company row which have start or end year == 2014
+
+const startEnd = companies.filter(indexing => indexing.start == 2014 || indexing.end == 2014)
+
+document.write(JSON.stringify(startEnd))
