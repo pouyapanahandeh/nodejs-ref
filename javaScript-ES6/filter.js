@@ -49,4 +49,13 @@ document.write(JSON.stringify(retail) + "<br>")
 
 const startEnd = companies.filter(indexing => indexing.start == 2014 || indexing.end == 2014)
 
-document.write(JSON.stringify(startEnd))
+document.write(JSON.stringify(startEnd) + "<br>")
+
+// getting the information of company which last atleast for one year
+
+const lastOneYear = companies.filter(company => company.end - company.start > 1)
+
+document.write(JSON.stringify(lastOneYear) + "<br>")
+
+
+
