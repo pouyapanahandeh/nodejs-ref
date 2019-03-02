@@ -40,3 +40,6 @@ document.write(companyInfo)
 
 // now lets do the last example with arrow function
 
+const companyInforArrow = companies.map((indexArrow) => `${indexArrow.name} - ${indexArrow.cat}`)
+
+document.write(companyInforArrow)
