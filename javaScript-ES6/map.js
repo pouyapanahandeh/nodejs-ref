@@ -38,7 +38,9 @@ const companyInfo = companies.map(function(index){
 
 document.write(companyInfo)
 
-// now lets do the last example with arrow function
+document.write("<br>" + "----------------" + "<br>")
+
+// gets the name and category of companies
 
 const companyInforArrow = companies.map((indexArrow) => `${indexArrow.name} - ${indexArrow.cat}`)
 
