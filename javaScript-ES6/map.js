@@ -45,3 +45,6 @@ document.write("<br>" + "----------------" + "<br>")
 const companyInforArrow = companies.map((indexArrow) => `${indexArrow.name} - ${indexArrow.cat}`)
 
 document.write(companyInforArrow)
+
+document.write("<br>" + "----------------" + "<br>")
+

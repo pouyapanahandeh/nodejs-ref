@@ -30,3 +30,6 @@ document.write([10,11,12], [,13,14,15] + "<br>")
 document.write(concatTwo([10,11,12], [13,14,15] + "<br>")) 
 
 // as you can see both method is work, but with second method we do not need to do any modification
+
+
+
