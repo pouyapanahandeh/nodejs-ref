@@ -4,6 +4,18 @@ map.set('1', 'str1')
 map.set(1, 'num1')
 map.set(true, 'bool1')
 
+// also we can chain the set method and have it like this
+/*
+
+
+map.set('1', 'str1')
+	.set(1, 'num1')
+	.set(true, 'bool1')
+
+
+*/
+
+
 // key are not convert to String, but in object key are convert to string
 // map keeps the types so these these two are different
 
@@ -23,4 +35,12 @@ let visitCounterMap = new Map()
 visitCounterMap.set(John, 123)
 
 document.write(visitCounterMap.get(John) + "<br>")
+
+// we can pass array in map
+
+let map = new Map([
+	['1', 'str1'],
+	[1,   'num1'],
+	[true, 'boo']
+])
 
